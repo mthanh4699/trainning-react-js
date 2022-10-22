@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400&family=Roboto:wght@100;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif
+}
+
+body {
+    background-color: rgb(135, 176, 87);
+}
+
+.main_content {
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left_section {
+    grid-column: span 2;
+    height: 100%;
+    background-color: rgba(2, 31, 1, 0.888);
+}
+
+
+.right_section {
+    grid-column: span 5;
+    background-color: rgb(218, 247, 201);
+    height: 100%;
+}
+
+
+.left_content {
+    padding: 1rem 3rem;
+}
+
+.profile {
+    width: 100%;
+    border-bottom: 2px solid rgb(135, 176, 87);
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid rgb(218, 247, 201);
+    
+}
+
+.name {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1rem 0;
+}
+
+.career {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: .5rem;
+}
+
+.main_title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+}
+
+.contact_info ul {
+    padding-top: 2rem 0;
+}
+
+.contact_info ul li {
+    padding: .5rem 0;
+    display: flex;
+    align-items: center;
+    color:  rgb(129, 200, 131);
+}
+
+.contact_info ul li a {
+    color: rgb(129, 200, 131);
+}
+
+.contact_info ul li i {
+    padding-right: 1.2rem;
+    font-size: 1.1rem;
+    color: rgb(10, 214, 16);
+    transition: all .3s ease;
+}
+
+.contact_info ul li i:hover {
+    transform: scale(1.5);
+}
+
+.skill_section ul {
+    padding-top: .4rem;
+}
+
+.skill_section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: .5rem;
+}
+
+.progress_bar {
+    width: 100%;
+    height: .4rem;
+    background-color: grey;
+    position: relative;
+    border-radius: 12px;
+}
+
+.progress {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgb(10, 214, 16);
+    border-radius: 12px;
+}
+
+.js_progress {
+    width: 30%;
+}
+
+.html_progress {
+    width: 80%;
+}
+
+.Rjs_progress {
+    width: 50%;
+}
+
+.skill_title {
+    text-transform: uppercase;
+    color: rgb(10, 214, 16);
+    font-size: .8rem;
+    padding-right: .5rem;
+    transition: all .3s ease;
+}
+
+.skill_title:hover {
+    transform: scale(1.5);
+}
+
+.right_main_content {
+    padding: 1.5rem 3rem;
+}
+
+.right_title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(10, 214, 16);
+    margin-bottom: .8rem;
+    position: relative;
+}
+
+.right_title::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: .3rem;
+    background-color: rgb(10, 214, 16);
+    right: 0;
+    top: 200px;
+}
+
+
+.param {
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+
+.right_main_content_2 {
+    padding: 1.5rem 3rem;
+}
+
+.right_title_2 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(10, 214, 16);
+    margin-bottom: .8rem;
+    position: relative;
+}
+
+.right_title_2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: .3rem;
+    background-color: rgb(10, 214, 16);
+    right: 0;
+    top: 100px;
+}
+
+.param_2 {
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+
+.right_main_content_3 {
+    padding: 1.5rem 3rem;
+}
+
+.right_title_3 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(10, 214, 16);
+    margin-bottom: .8rem;
+    position: relative;
+}
+
+.param_3 {
+    line-height: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+
+span {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(10, 214, 16);
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.end {
+    text-align: center;
+}
+
+
+
+.end i {
+    border: 3px solid  rgb(10, 214, 16);
+    padding: 15px;
+    font-size: 4rem;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.end i:hover {
+    box-shadow: 0px 0px 10px 10px;
+    transform:  scale(1.2);
+}
+
+.fa-solid {
+    color: rgb(10, 214, 16);
+}
